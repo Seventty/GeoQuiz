@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="FalseButton">False</string>
+    <string name="TrueButton">True</string>
+    <string name="Correct_Toast">Correct!</string>
+    <string name="Incorrect_Toast">Incorrect!</string>
+    <string name="NextButton">Next</string>
+    <string name="BackButton">Back</string>
+<!--    Zona de preguntas-->
+    <string name="question_primer_presidente">¿Adolf Suárez fue el primer presidente de la \n democracia española tras el franquismo?</string>
+    <string name="question_alunizaje">¿1969 es el año en el cual Neil Armstron dió el primer e iconico \n "Un pequeño paso para el hombre, un gran paso para la humanidad"?</string>
+    <string name="question_primera_guerra">¿El asesinato del archiduque Francisco Fernando de Habsburgo por parte de un presidente fue el causante de la primera guerra mundial?</string>
+    <string name="question_koalas">¿Los Koalas son osos?</string>
+    <string name="question_flor">¿Las flor es un órgano de las plantas?</string>
+    <string name="question_oxigeno">¿O3 es oxígeno?</string>
+    <string name="question_guerra_de_100_años">¿La guerra de los 100 años duró 100 años exactos?</string>
+    <string name="question_conejos">¿Los conejos son roedores?</string>
+    <string name="question_peso_termitas">¿El peso total de todas las termitas en la tierra es superior al peso total de todos los humanos?</string>
+    <string name="question_orangutanes">¿Los orangutanes duermen de pie?</string>
+    <string name="question_ajedrez_atomos">¿Hay más movimientos en el ajedrez que átomos en el mundo?</string>
+    <string name="question_neuronas">¿La principal limitación de las neuronas del cerebro es que si son dañadas no pueden regenerarse?</string>
+    <string name="question_yodo">¿Se distribuye Yodo a las personas que trabajan en plantas nucleares porque este evita la radiación?</string>
+    <string name="question_insectos">¿Todos los insectos tienen 6 patas?</string>
+    <string name="question_arsenico">¿Hay arsenico en el café?</string>
+    <string name="question_pelos">¿Tenemos un promedio de entre 400,000 y 500,000 pelos en la cabeza?</string>
+    <string name="question_oxford">¿La universidad de Oxford fue fundada antes que apareciera la civilizacion Azteca?</string>
+    <string name="question_elefantes_saltarines">¿Nunca se ha visto a un elefante saltar en vertical?</string>
+    <string name="question_facebook_color">¿Mark Zuckerber es daltónico y el fondo azul que vemos en facebook es el color que mejor puede distinguir?</string>
+    <string name="question_himno_españa">¿El himno nacional de españa no tiene letra?</string>
+</resources>
