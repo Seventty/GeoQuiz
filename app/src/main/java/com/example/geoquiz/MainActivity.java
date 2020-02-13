@@ -8,9 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String TAG = "QuizActivity";
     private Button mTrueButton;
     private Button mFalseButton;
     private Button mNextButton;
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d(TAG, "onCreate(Bundle) called");
         mQuestionTextView = (TextView)findViewById(R.id.Questionario);
         int question = mQuestionBank[mCurrentIndex].getQuestion();
         mQuestionTextView.setText(question);
@@ -98,5 +101,30 @@ public class MainActivity extends AppCompatActivity {
         });
 
     updateQuestion();
+    }
+    @Override
+    public void onStart(){
+       super.onStart();
+       Log.d(TAG, "OnStart() Called");
+    }
+    @Override
+    public void onPause(){
+        super.onPause();
+        Log.d(TAG, "onPause() Called");
+    }
+    @Override
+    public void onResume(){
+        super.onResume();
+        Log.d(TAG, "onResume() Called");
+    }
+    @Override
+    public void onStop(){
+        super.onStop();
+        Log.d(TAG, "onStop() Called");
+    }
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        Log.d(TAG, "onDestroy() Called");
     }
 }

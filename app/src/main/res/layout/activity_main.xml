@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#081B33"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,7 +16,6 @@
         android:layout_marginBottom="1dp"
         android:gravity="center"
         android:orientation="vertical"
-        android:background="#081B33"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
